@@ -4,6 +4,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 
+        @SuppressWarnings("resource")
         var scanner = new Scanner(System.in);
         System.out.println("Qual seu nome?");
 
@@ -15,5 +16,6 @@ public class Main {
 
         // OU System.out.printf(" Olá " + nome + " Sua idade é a" + idade);
 
+        scanner.close();
     }
 }
