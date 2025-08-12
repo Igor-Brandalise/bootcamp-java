@@ -1,3 +1,5 @@
 {
-    "java.debug.settings.onBuildFailureProceed": false
+    "java.codeGeneration.generatePackageInfo": false,
+"java.codeGeneration.generatePackageStatement": false
+
 }
